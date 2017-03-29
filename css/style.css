@@ -295,7 +295,7 @@ Main components
 /* Touch devices */
 .touch .cd-nav-trigger {
   display: block;
-  z-index: 2;
+  z-index: 10;
   position: fixed;
   bottom: 30px;
   right: 5%;
@@ -338,7 +338,7 @@ Main components
 
 .touch #cd-vertical-nav {
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   right: 5%;
   bottom: 30px;
   width: 90%;
