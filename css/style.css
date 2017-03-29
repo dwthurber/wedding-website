@@ -113,6 +113,7 @@ Main components
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+    z-index: 9;
 }
 .cd-section-content img {
     margin: 10px 0 0 0;
@@ -431,25 +432,40 @@ Main components
 
 #flower1 {
     position: absolute;
-    bottom: -67px;
-    right: 0;
+    width: 300px;
+    bottom: -107px;
+    left: 0;
     z-index: 2;
 }
 
 #flower2 {
+    width: 300px;
     position: absolute;
-    top: -70px;
-    left: 0;
-    -webkit-transform: rotate(180deg);     /* Chrome and other webkit browsers */
-    -moz-transform: rotate(180deg);        /* FF */
-    -o-transform: rotate(180deg);          /* Opera */
-    -ms-transform: rotate(180deg);         /* IE9 */
-    transform: rotate(180deg)
+    bottom: 0;
+    left: 80px;
+}
+#flower3 {
+    width: 300px;
+    position: absolute;
+    top: -107px;
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 @media only screen and (max-width: 700px) {
     #flower1,
-    #flower2 {
+    #flower2,
+    #flower3 {
         width: 200px;
+    }
+    #flower1 {
+        bottom: -70px;
+    }
+    #flower3 {
+        top: -70px;
     }
 }
 
