@@ -65,13 +65,17 @@ Main components
 
 -------------------------------- */
 .cd-section {
-  min-height: 650px;
+  min-height: 660px;
   position: relative;
   padding: 2em 0;
   height: auto;
 }
 #section1 {
     background: url("../img/emily_derek_apartment.png") center center;
+    background-size: cover;
+}
+#section2 {
+    background: url("../img/chateau.png") center center;
     background-size: cover;
 }
 #section1 img {
@@ -442,7 +446,7 @@ Main components
     width: 300px;
     position: absolute;
     bottom: 0;
-    left: 80px;
+    left: 50px;
 }
 #flower3 {
     width: 300px;
