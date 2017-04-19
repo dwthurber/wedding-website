@@ -976,7 +976,7 @@ Slide in Panel
   width: 90%;
   height: 100%;
   top: 0;
-  background: #dbe2e9;
+  background: #bda3ad;
   z-index: 300;
   -webkit-transition-property: -webkit-transform;
   -moz-transition-property: -moz-transform;
@@ -1052,4 +1052,8 @@ Slide in Panel
     font-size: 1rem;
     line-height: 1.6;
   }
+}
+.zola {
+  width: 200px;
+  padding-top: 30px;
 }
