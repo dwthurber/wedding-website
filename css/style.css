@@ -8,6 +8,15 @@ html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
+footer {
+  position: absolute;
+  bottom: 20px;
+  right: 25px;
+}
+footer p {
+  font-size: 0.8rem!important;
+}
+
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -29,6 +38,7 @@ body, html {
 a {
   color: #3e3947;
   text-decoration: none;
+  font-weight: 500;
 }
 
 img {
@@ -82,7 +92,7 @@ Main components
     background-size: cover;
 }
 #section2 {
-    background: url("../img/chateau.png") center center;
+/*    background: url("../img/chateau.png") center center;*/
     background-size: cover;
 }
 #section1 img {
@@ -107,10 +117,14 @@ Main components
   background-color: #A796C9;
 }
 .cd-section:nth-of-type(even) p {
-  color: #25046F;
+  color: #422A75;
 }
 .cd-section:nth-of-type(even) h2,
 .cd-section:nth-of-type(even) h3 {
+  color: #ECE8F6!Important;
+}
+.cd-section:nth-of-type(odd) h2,
+.cd-section:nth-of-type(odd) h3 {
   color: #EEEAF7!Important;
 }
 .cd-section-content {
