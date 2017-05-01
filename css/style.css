@@ -88,7 +88,7 @@ Main components
   height: auto;
 }
 #section1 {
-    background: url("../img/lake_back.png") center center;
+    background: url("../img/lake_back_small.png") center center;
     background-size: cover;
 }
 #section2 {
@@ -501,6 +501,14 @@ Main components
     }
     #flower3 {
         top: -70px;
+    }
+    #flower2 {
+      display: none;
+    }
+    footer {
+      width: 100%;
+      text-align: center;
+      right: 0;
     }
 }
 
