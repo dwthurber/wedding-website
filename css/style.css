@@ -490,7 +490,7 @@ Main components
     -ms-transform: rotate(180deg);
     transform: rotate(180deg);
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 769px) {
     #flower1,
     #flower2,
     #flower3 {
