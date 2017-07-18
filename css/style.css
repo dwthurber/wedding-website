@@ -88,11 +88,10 @@ Main components
   height: auto;
 }
 #section1 {
-    background: url("../img/lake_back_small.png") center center;
+    background: url("../img/lake_back_large.png") center center;
     background-size: cover;
 }
 #section2 {
-/*    background: url("../img/chateau.png") center center;*/
     background-size: cover;
 }
 #section1 img {
@@ -197,6 +196,18 @@ Main components
 .zola {
   width: 130px;
   padding-top: 40px;
+}
+@media only screen and (max-width: 1000px) {
+  #section1 {
+    background: url("../img/lake_back_medium.png") center center;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #section1 {
+    background: url("../img/lake_back_small.png") center center;
+    background-size: cover;
+  }
 }
 @media only screen and (min-width: 768px) {
   .cd-section {
@@ -1092,3 +1103,7 @@ Slide in Panel
   }
 }
 
+
+.cd-wide {
+  max-width: 80%!important;
+}
